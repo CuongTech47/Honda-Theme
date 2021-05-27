@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "gothamvnubold_new", arial, Helvetica, sans-serif;
+}
+.load{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    display: block;
+    overflow: hidden;
+}
+.load .img-loading{
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -75px;
+    margin-left: -75px;
+}
+#menu {
+    padding-left: 1%;
+    background-color: #C00000;
+    font-family:  sans-serif;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    top: 0;
+}
+#menu .menu-content {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+#menu .icon-header {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+#menu .drop {
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    height: 70px;
+}
+#menu .drop .image-logo-small {
+    width: 100%;
+    height: auto; 
+   
+}
+
+#menu .menu-content .image-logo-small {
+    margin-top: 2.5%;
+}
+#menu .drop-btn {
+    width: 100%;
+    font-weight: bold;
+    background-color: #C00000;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    outline: none;
+}
+#menu li{
+    font-size: 13px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(51,73,96,1);
+    border-bottom: thin #F79622 solid;
+    cursor: pointer;
+}
+#menu li:hover{
+    background-color:#F79622;
+}
+#menu a{
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: white;
+    text-decoration: none;
+}
+#menu ul{
+    display: none;
+    width: 100%;
+}
+#menu .active{
+    background-color: #a30000;
+}
+
+
+
+
+.main{
+    margin-top: 70px;
+    max-width: 100%;
+}
+.main .content img {
+    width: 100%;
+    height: auto;
+}
+.main .content.color {
+    margin-top: 30px;
+    text-align: center;
+}
+.main .content.color img {
+    width: 60%;
+    height: auto;
+}
+.specifications {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    /* margin-right: 80px; */
+}
+.specifications .sub-heading {
+    margin-bottom: 40px;
+}
+.sub-heading {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+.sub-heading h2 {
+    color: #000;
+    font-family: 'UTM Bitsumishi Pro';
+    font-size: 2.33333rem;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+    font-weight: bold;
+}
+.specifications__table {
+    margin-left: 30px;
+    margin-right: 30px;
+    max-height: 700px;
+    overflow: auto;
+    position: relative;
+}
+.specifications__table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+.specifications__table table td{
+    border: 1px solid #b4b4b4;
+    padding: 7px 30px;
+    width: 30%;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 0.86667rem;
+}
+.specifications__table table td table, .specifications__table table th table {
+    margin: -8px -31px;
+    width: -webkit-calc(100% + 62px);
+    width: calc(100% + 62px);
+    border: 0;
+    height: 100%;
+    border-collapse: collapse;
+}
+.specifications__table table ~ p {
+    width: 60%;
+    margin-bottom: 2em;
+    margin-left: 65px;
+    font-style: italic;
+}
+.specifications .bg-grey-darker {
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.2);
+}
+.btn-bottom {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    margin-top: 3em;
+    justify-content: space-evenly;
+}
+
+.btn-bottom button{
+    width: 200px;
+    height: 50px;
+}
+
+
+#footer{
+    margin-top: 100px;
+    margin-bottom: -50px;
+}
+
+
+#footer .support{
+    background: #ececec;
+    padding: 1.5em 0;
+    text-align: center;
+    font-size: 24px;
+}
+#footer .support .color-red{
+    color: #ec1a2e;
+    font-size: 24px;
+    font-weight: bold;
+}
+#footer .support .color-black{
+    font-size: 24px;
+    font-weight: bold;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 10px 5em;
+    align-items: center;
+}
+.description .des-copy-right {
+    color: #585858;
+    font-size: 14px;
+}
+.icon-facebook {
+    display: flex;
+    align-items: center;
+}
+.icon-facebook span {
+    color: #585858;
+    font-size: 14px;
+}
+.icon-facebook a img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+#footer .support .normal-form{
+    width: 25%;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 0px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+#footer .support .normal-form .message{
+    margin-top: 30px;
+    text-align: center;
+}
+#footer .support .normal-form .message button{
+    width: 150px;
+    height: 50px;
+}
+
+.back-to-top {
+    width: 40px;
+    height: 40px;
+    background-color: #4d4d4d;
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 30px;
+    bottom: 70px;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+.back-to-top.hien-ra{
+   visibility: visible;
+   opacity: 1;
+   
+   animation: hien-ra 0.5s forwards;
+   
+}
+
+@-webkit-keyframes hien-ra{
+
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom:  30px;
+    }
+}
+
+.back-to-top:hover{
+    background-color: red;
+}
+

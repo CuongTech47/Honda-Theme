@@ -1,0 +1,350 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#menu {
+    padding-left: 1%;
+    background-color: #C00000;
+    font-family:  sans-serif;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    top: 0;
+}
+#menu .menu-content {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+#menu .icon-header {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+#menu .drop {
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    height: 70px;
+}
+#menu .drop .image-logo-small {
+    width: 100%;
+    height: auto; 
+   
+}
+
+#menu .menu-content .image-logo-small {
+    margin-top: 2.5%;
+}
+#menu .drop-btn {
+    width: 100%;
+    font-weight: bold;
+    background-color: #C00000;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    outline: none;
+}
+#menu li{
+    font-size: 13px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(51,73,96,1);
+    border-bottom: thin #F79622 solid;
+}
+#menu li:hover{
+    background-color:#F79622;
+}
+#menu a{
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: white;
+    text-decoration: none;
+}
+#menu ul{
+    display: none;
+    width: 100%;
+}
+#menu .active{
+    background-color: #a30000;
+}
+
+
+
+#main-bg{
+    width: 100%;
+    height: 450px;
+    margin-top: 75px;
+}
+
+#main-bg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.div-cost-estimates {
+    padding-bottom: 36px;
+    padding-top: 45px;
+    
+}
+.d-block {
+    display: block!important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.cost-left {
+    float: left;
+    width: auto;
+    font-family: tahoma;
+    font-size: 16px;
+    color: #444;
+    border: none;
+    border-right: 1px solid #ccc;
+    padding-right: 60px;
+    height: 400px;
+}
+.choose-car>div:first-child {
+    font-weight: 700;
+    width: 172px;
+    padding-bottom: 20px;
+}
+.select-choose-city {
+    margin-right: 20px;
+    padding-top: 10px;
+    border: none;
+}
+
+select {
+    border: none;
+    background-color: #ccc;
+    height: 40px;
+    font-family: Arial,Helvetica,sans-serif;
+    color: #444;
+    font-style: italic;
+    outline: none;
+    padding-left: 8px;
+    max-height: 300px;
+    
+
+}
+select , option{
+    width: 290px;
+}
+.tit {
+    padding-top: 20px;
+}
+.choose-city>div:first-child {
+    width: 172px;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.btn-cost-estimates {
+    width: 140px;
+    height: 40px;
+    background-color: #e11428;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-bottom: 4px solid #444;
+    margin-bottom: 20px;
+    font-size: 12px;
+    margin-left: 192px;
+    cursor: pointer;
+    outline: none;
+}
+.note-cost {
+    color: #444;
+    font-size: 12px;
+    line-height: 18px;
+    border-top: 1px solid #e2e2e2;
+}
+.note-cost p {
+    padding-left: 30px;
+    position: relative;
+    margin-top: 17px;
+}
+.cost-right {
+    padding-left: 49px;
+    font-weight: 600;
+}
+.cost-price {
+    width: auto;
+    padding-bottom: 10px;
+}
+.cost-price span:first-child {
+    float: left;
+}
+.cost-price-fees {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.total {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.cost-price.total span:first-child {
+    color: #444;
+}
+.cost-price.total span {
+    color: #e11428;
+    font-size: 20px;
+    font-weight: 700;
+}
+.cost-note {
+    line-height: 24px;
+    padding-top: 17px;
+    border-top: 1px solid #ccc;
+}
+.error {
+    border: 1px solid red;
+}
+.an-di{
+    display: none;
+}
+.hien-ra{
+    display: block;
+}
+@media(max-width : 576px){
+    #main-bg{
+        width:100%;
+        height: 150px;
+    }
+
+
+}
+.alert{
+    display: none;
+}
+/* footer */
+#footer{
+    margin-top: 70px;
+    margin-bottom: -50px;
+    display: block;
+    background: #ececec;
+}
+#footer .block{
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 0;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+
+}
+#footer .block .list{
+    list-style: none;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    
+    
+}
+#footer .block .list-2{
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    list-style: none;
+}
+.big{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding-left: 16px;
+    padding-bottom: 14px;
+    font-family: Helvetica,Courier New,Courier,monospace;
+    color: #212121;
+    opacity: 1;
+    text-decoration: none;
+    
+}
+.nomal{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 16px;
+    padding-right: 0;
+    font-family: Helvetica,Courier New,Courier,monospace;
+    color: #212121;
+    opacity: 1;
+    text-decoration: none;
+}
+.form{
+    width: 80%;
+    height: 20px;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.message{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.message button{
+    width: 120px;
+    height: 40px;
+}
+.b-hotline {
+    font-size: 18px;
+    color: #c00;
+}
+.mail{
+    color: #c00;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+.list-2 .nomal{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Helvetica,Courier New,Courier,monospace;
+    color: #212121;
+    opacity: 1;
+    padding-left: 16px;
+    text-decoration: none;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 5em;
+    align-items: center;
+}
+.description .des-copy-right {
+    color: #585858;
+    font-size: 14px;
+}
+.icon-facebook {
+    display: flex;
+    align-items: center;
+}
+.icon-facebook span {
+    color: #585858;
+    font-size: 14px;
+}
+.icon-facebook a img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}

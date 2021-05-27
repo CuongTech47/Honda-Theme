@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="Mycss/style-oto/style-danhsachdaily/style.css">
+</head>
+<body class="preloading">
+    <div class="load">
+		<img class="img-loading" src="Image/loading.gif" alt="">
+	</div>
+	<div id="main-contents" style="display: block">
+			<!--MENU-->
+		<div id="menu">
+            <div class="menu-content">
+                <div class="drop icon-header ">
+                    <img class="image-logo-small" src="Image/img1.png" alt="">
+                </div>
+                <div class="drop " >
+                    <a href="Honda-trangchu.html">
+                        <button class="drop-btn">TRANG CHỦ</button>
+                    </a>
+                </div>
+                
+                <div class="drop" >
+                    <a href="gioithieu.html">
+                        <button class="drop-btn drop-btn1">GIỚI THIỆU</button>
+                    </a>
+                </div>
+                <div class="drop">
+                    <a href="HondaOto.html">
+                        <button class="drop-btn drop-btn2 active">Sản Phẩm</button>
+                    </a>
+                    <ul class="ul-2">
+                        <li >
+                            <a href="HondaOto.html">Sản Phẩm MỚI</a>
+                        </li>
+                        <li>
+                            <a href="accessories.html">Phụ kiện</a>
+                        </li>
+                        <li>
+                            <a href="phutung.html">Phụ tùng</a>
+                        </li>
+                        <li >
+                            <a href="danhsachdaily.html">Danh sách đại lí</a>
+                        </li>
+                        <li >
+                            <a href="#">Chính sách bảo hành</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <a href="#">
+                        <button class="drop-btn drop-btn3">LÁI XE AN TOÀN</button>
+                    </a>
+                    <ul class="ul-3">
+                        <li >
+                            <a href="#">Trung tâm lái xe an toàn</a>
+                        </li>
+                        <li >
+                            <a href="#">Hoạt động đào tạo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <a href="news.html">
+                        <button class="drop-btn drop-btn4">TIN TỨC</button>
+                    </a>
+                    <ul class="ul-4">
+                        <li >
+                            <a href="news.html">Tin tức ô tô</a>
+                        </li>
+                        <li >
+                            <a href="#">Lái xe an toàn</a>
+                        </li>
+                        <li >
+                            <a href="Donggopxahoi.html">Đóng góp xã hội</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="drop">
+                    <a href="contact.html">
+                        <button class="drop-btn ">LIÊN HỆ</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container p-0" style="margin-top: 70px;">
+            <div class="row">
+                <div class="col-12">
+                    <div class="title-agency">
+                        <a href="Honda-trangchu.html" class="app-parent">Trang chủ</a>
+                        <span class="app-arrow">❯</span>
+                        <a href="HondaOto.html" class="app-parent">Sản Phẩm</a>
+                        <span class="app-arrow">❯</span>
+                        <a  class="app-current">Danh Sách Đại Lý</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px;">
+                <div class="col-12">
+                    <table id="table_id" class="display" >
+                        <thead>
+                            <tr>
+                                <th>Tên Đại Lý</th>
+                                <th>Tỉnh Thành</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-kien-giang-93206j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-kien-giang-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Kiên Giang</h2>
+                                                <span class="province-name">(Kiên Giang)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                Thửa đất số 584, Tờ bản đồ số 59, Đường Lạc Hồng, KP Phi Kinh, Phường Vĩnh Hiệp, Thành Phố Rạch Giá, Tỉnh Kiên Giang 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">Kiên Giang</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-51017j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Quảng Trị</h2>
+                                                <span class="province-name">(Quảng Trị)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                236 Lê Duẩn, TP. Đông Hà, Tỉnh Quảng Trị 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">Quảng Trị</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-cong-hoa-quan-tan-binh-tphcm-40724j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Cộng Hòa</h2>
+                                                <span class="province-name">(TP.HCM)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                18 Cộng Hòa, Phường 4, Quận Tân Bình, TPHCM 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">TP.HCM</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-phat-tien-quan-2-tphcm-48611j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Phát Tiến</h2>
+                                                <span class="province-name">(TP.HCM)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                136D Mai Chí Thọ, Phường An Phú, Quận 2, TPHCM 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">TP.HCM</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-kim-thanh-quan-11-tphcm-40712j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Kim Thanh</h2>
+                                                <span class="province-name">(TP.HCM)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                Số 6 Đường 3-2, Phường 15, Quận 11, TP.HCM  
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">TP.HCM</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-phuoc-thanh-quan-binh-tan-tphcm-40735j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Phước Thành</h2>
+                                                <span class="province-name">(TP.HCM)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                63 Võ Văn Kiệt, Phường An Lạc, Quận Bình Tân, TP.HCM  
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">TP.HCM</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-sai-gon-quan-7-tphcm-127963j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Sài Gòn - Quận 7</h2>
+                                                <span class="province-name">(TP.HCM)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                Khu dân cư ven sông Tân Phong, Đường Nguyễn Văn Linh, Phường Tân Phong, Quận 7, TP.HCM 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">TP.HCM</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-my-dinh-quan-cau-giay-ha-noi-40446j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Mỹ Đình</h2>
+                                                <span class="province-name">(Hà Nội)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                Số 2 Phố Lê Đức Thọ, Phường Mai Dịch, Quận Cầu Giấy, Hà Nội 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">Hà Nội</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-giai-phong-quan-hoang-mai-ha-noi-40437j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Giải Phóng</h2>
+                                                <span class="province-name">(Hà Nội)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                Km9, Quốc Lộ 1A, Phường Hoàng Liệt, Quận Hoàng Mai, Hà Nội 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">Hà Nội</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-ha-dong-ha-noi-48286j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Hà Đông</h2>
+                                                <span class="province-name">(Hà Nội)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                979 Đường Quang Trung kéo dài, Phường Yên Nghĩa, Quận Hà Đông, Hà Nội 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">Hà Nội</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-long-bien-quan-long-bien-ha-noi-40462j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Long Biên</h2>
+                                                <span class="province-name">(Hà Nội)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                447 Nguyễn Văn Linh, Phường Phúc Đồng, Quận Long Biên, Hà Nội 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">Hà Nội</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-pham-van-dong-ha-noi-48286j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Phạm Văn Đồng</h2>
+                                                <span class="province-name">(Hà Nội)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                Đường Phạm Văn Đồng, Quận Bắc Từ Liêm, Hà Nội 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">Hà Nội</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-tay-ho-quan-tay-ho-ha-noi-40429j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Tây Hồ</h2>
+                                                <span class="province-name">(Hà Nội)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                197A Nghi Tàm, Phường Yên Phụ, Quận Tây Hồ, Hà Nội 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">Hà Nội</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="agency-info">
+                                        <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-da-nang-quan-hai-chau-tp-da-nang-40524j2.jpg" alt="" class="box-img">
+                                        <div class="showroom-info">
+                                            <div class="d-flex">
+                                                <img src="https://cdn.dailyxe.com.vn/image/dai-ly-honda-oto-quang-tri-tp-dong-ha-quang-tri-33524j1.jpg" alt="" class="img-icon">
+                                                <h2 class="showroom-title">Honda Ôtô Đà Nẵng</h2>
+                                                <span class="province-name">(Đà Nẵng)</span>
+                                            </div>
+                                            <span class="address">
+                                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                                178 Đường 2/9, Quận Hải Châu, TP. Đà Nẵng, Tỉnh Đà Nẵng 
+                                            </span>
+                                            <span class="address">
+                                                <i class="fas fa-phone"></i>
+                                                <a href="tel:0899490407" title="Gọi ngay">0899.49.04.07</a>
+                                            </span>
+                                            <div class="search-link">
+                                                <a href="#" class="search-info" title="Xem chi tiết">Thông tin đại lý</a>
+                                                <a href="#" class="search-map">Trên bản đồ</a>
+                                            </div>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                                <td style="text-align: center;">Đà Nẵng</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="block">
+            <ul class="list">
+                <li class="big">Công ty Honda Việt Nam</li>
+                <li class="nomal">Số GCNĐKDN: 2500150543</li>
+                <li class="nomal">Đăng ký lần đầu: Ngày 26/6/2008</li>
+                <li class="nomal">Đăng ký thay đổi lần thứ 10: Ngày 1/4/2019.</li>
+                <li class="nomal">Cơ quan cấp: Phòng Đăng ký kinh doanh – Sở Kế hoạch và Đầu tư Vĩnh Phúc</li>
+                <li class="nomal">Địa chỉ: Phường Phúc Thắng, Thành Phố Phúc Yên,Tỉnh Vĩnh Phúc, Việt Nam</li>
+                <li class="nomal">
+                    <a href="#">
+                        <img src="Image/logo-bct.png" style="width: 150px;">
+                    </a>
+                </li>
+            </ul>
+            <ul class="list">
+                <li class="big">ĐĂNG KÝ NHẬN TIN</li>
+                <li class="nomal form">
+                        <form >
+                            <div class="form-group">
+                              <input class="form-control" type="text" placeholder="Họ và tên...">
+                            </div>
+                            <div class="form-group">
+                              
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email ...">
+                            </div>
+                            <div class="form-group">
+                              <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Đăng kí nhận tin</option>
+                                    <option>Tin tức xe máy</option>
+                                    <option>Tin tức ô tô</option>
+                                    <option>Doanh số bán hàng</option>
+                                    <option>Khuyên mãi</option>
+                                    <option>Đóng góp xã hội</option>
+                                    <option>Lái xe an toàn</option>
+                                    <option>MotorSports</option>
+                                    <option>Các tin khác</option>
+                              </select>
+                              <div class="message">
+                                  <button type="button" class="btn btn-danger">Đăng kí</button>
+                              </div>
+                            </div>
+                      </form>
+                </li>
+            </ul>
+            <ul class="list-2">
+                <li class="big">ĐƯỜNG DÂY NÓNG</li>
+                <li class="nomal">Hotline: 
+                    <b class="b-hotline">1800 8001</b>
+                    (Miễn phí cho tất cả thuê bao)
+                </li>
+                <li class="nomal">Email:
+                    <span class="mail">cr@honda.com.vn</span>
+                </li>
+            </ul>
+        </div>
+        <div class="description">
+            <div class="des-copy-right">
+                <span> © 2019. Copyright by Honda VietNam</span>
+            </div>
+            <div class="icon-facebook">
+                <span>Theo dõi Honda VietNam trên</span>
+                <a href="https://www.facebook.com/HondaVietnam/?fref=nf">
+                    <img src="Image/facebook.png">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="text/javascript" src="Myjs/OtoJS/OtoJS-danhsachdaily/jquery-3.5.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="Myjs/OtoJS/OtoJS-danhsachdaily/danhsachdaily.js"></script>
+</body>
+</html>

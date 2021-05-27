@@ -1,0 +1,376 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+#menu {
+    padding-left: 1%;
+    background-color: #C00000;
+    font-family:  sans-serif;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    top: 0;
+}
+#menu .menu-content {
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+#menu .icon-header {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+#menu .drop {
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    height: 70px;
+}
+#menu .drop .image-logo-small {
+    width: 100%;
+    height: auto; 
+   
+}
+
+#menu .menu-content .image-logo-small {
+    margin-top: 2.5%;
+}
+#menu .drop-btn {
+    width: 100%;
+    font-weight: bold;
+    background-color: #C00000;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    height: 70px;
+    outline: none;
+}
+#menu li{
+    font-size: 13px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(51,73,96,1);
+    border-bottom: thin #F79622 solid;
+    cursor: pointer;
+}
+#menu li:hover{
+    background-color:#F79622;
+}
+#menu a{
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: white;
+    text-decoration: none;
+}
+#menu ul{
+    display: none;
+    width: 100%;
+}
+#menu .active{
+    background-color: #a30000;
+}
+.fade-in {
+    animation: fadeIn 5s ease;
+    -webkit-animation: fadeIn 5s ease;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+.textTitle {
+    color: #ec162b;
+    font-weight: 700;
+    font-size: 34px;
+}
+.collapse-ctn {
+    overflow: hidden;
+    transition: 1.5s;
+}
+p {
+    text-align: justify;
+}
+.gioi-thieu-honda-xem-them {
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+.collapse-xem-them {
+    font-size: 16px;
+    color: #c00;
+    display: inline-block;
+    height: 18px;
+    margin: 20px 0 25px;
+   
+}
+.th-xe-may-bottom-ctn-detail-img{
+    transition: 1s;
+}
+.image-honda-vn {
+    width: 84%;
+    height: 97%;
+}
+.block1-num , .block2-num{
+    position: absolute;
+    opacity: 1;
+    display: block;
+    font-weight: 700;
+    color: #000;
+}
+.block1-num {
+    top: 6.5%;
+    left: 15.1%;
+    font-size: 48px;
+}
+.block2-num {
+    top: 3.5%;
+    left: 37.1%;
+    font-size: 45px;
+}
+img-honda{
+    width: 200px;
+}
+.block3-num {
+    position: absolute;
+    top: 5.5%;
+    left: 12.1%;
+    font-size: 49px;
+    opacity: 1;
+    display: block;
+    font-weight: 700;
+    color: #000;
+    display: flex;
+}
+.block3-num>.nha-may-text {
+    line-height: 1;
+    margin-top: 17px;
+    margin-left: 6px;
+    font-size: 20px;
+}
+.block4-num{
+    top: 57.5%;
+    left: 58.1%;
+    position: absolute;
+    opacity: 1;
+    display: block;
+    font-weight: 700;
+    color: #000;
+}
+.block5-num {
+    position: absolute;
+    opacity: 1;
+    display: block;
+    font-weight: 700;
+    color: #000;
+    top: 8.5%;
+    left: 21.1%;
+    font-size: 45px;
+}
+.collapse-ctn1 {
+    overflow: hidden;
+    transition: 1s;
+}
+.gioi-thieu-honda-xem-them1{
+    display: inline-block;
+    margin-bottom: 15px;
+
+}
+.collapse-xem-them1 {
+    font-size: 16px;
+    color: #c00;
+    display: inline-block;
+    height: 18px;
+    margin: 20px 0 25px;
+   
+}
+.th-xe-may-bottom-ctn-detail-img1{
+    transition: 1s;
+}
+.border-top {
+    border: none;
+    border-top: 1px solid #ccc;
+    padding-top: 48px;
+}
+.txtlist-factories {
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 10px;
+    color: inherit;
+}
+.accordion .card-header {
+    padding: 0;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+    position: relative;
+}
+.boderStyle {
+    border: none;
+    border-bottom: 2px solid #dedede;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.accordion .card-header .card-title {
+    margin: 0;
+    padding: 0 56px 0 20px;
+    display: block;
+    height: 56px;
+    line-height: 56px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.padding-card-body {
+    padding: 0;
+}
+.image {
+    max-width: 100%;
+    height: 170px;
+}
+.info-factories {
+    margin-left: 10px;
+    justify-content: flex-start;
+}
+.tbmorto {
+    font-weight: 700;
+    font-size: 14px;
+}
+.tbvalue {
+    font-size: 15px;
+    padding-left: 5px;
+    float: left;
+    overflow: hidden;
+    padding-right: 15px;
+    text-align: left;
+}
+#footer{
+    margin-top: 70px;
+    margin-bottom: -50px;
+    display: block;
+    background: #ececec;
+}
+#footer .block{
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    margin-top: 0;
+    padding-bottom: 20px;
+    justify-content: space-evenly;
+
+}
+#footer .block .list{
+    list-style: none;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 20px;
+    
+    
+}
+#footer .block .list-2{
+    width: 100%;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    list-style: none;
+}
+.big{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    padding-left: 16px;
+    padding-bottom: 14px;
+    font-family: Helvetica,Courier New,Courier,monospace;
+    color: #212121;
+    opacity: 1;
+    text-decoration: none;
+    
+}
+.nomal{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 16px;
+    padding-right: 0;
+    font-family: Helvetica,Courier New,Courier,monospace;
+    color: #212121;
+    opacity: 1;
+    text-decoration: none;
+}
+.form{
+    width: 80%;
+    height: 20px;
+    margin-bottom: 10px;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.message{
+    margin-top: 20px;
+    text-align: center;
+
+}
+.message button{
+    width: 120px;
+    height: 40px;
+}
+.b-hotline {
+    font-size: 18px;
+    color: #c00;
+}
+.mail{
+    color: #c00;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+.list-2 .nomal{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: Helvetica,Courier New,Courier,monospace;
+    color: #212121;
+    opacity: 1;
+    padding-left: 16px;
+    text-decoration: none;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 5em;
+    align-items: center;
+}
+.description .des-copy-right {
+    color: #585858;
+    font-size: 14px;
+}
+.icon-facebook {
+    display: flex;
+    align-items: center;
+}
+.icon-facebook span {
+    color: #585858;
+    font-size: 14px;
+}
+.icon-facebook a img {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
